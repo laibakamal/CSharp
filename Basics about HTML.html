@@ -1,0 +1,76 @@
+<!-- when you generate request, the request is of type http and the req goes to server, server processes req and returns the http response in HTML -->
+<!-- web server renders only static pages, for dynamic pages it passes req to application server -->
+<!-- Response is in Html only, even if the request sent was in other languages like C# -->
+<!-- response also includes CSS, JS, images, etc. -->
+
+<!-- HTML= structure of webpage
+     CSS= styling of webpage
+     JS= functionality in webpage -->
+
+<!-- DNS (domain name server): is used to decide which server to send the request on. -->
+
+<!-- DNS servers of google
+     8.8.8.8 (primary)
+     8.8.4.4 (secondary) -->
+
+<!-- http and https
+     where security matters: https is used
+     else: http -->
+
+
+<!-- User Section: everything written in body tag which appears on web page -->
+<!-- Browser Section: Title we write in title tag, shows up in the title(tab) bar of browser. -->
+
+
+<!-- Tags -->
+<!-- 1) p for paragraph -->
+<!-- 2) br for newline (no closing tag) -->
+<!-- 3) pre tag for pre format -->
+<!-- 4) head tag -->
+<!-- 5) h tags: h1 to h6 -->
+<!-- 6) b tag to make text bold, meaningless bold --> 
+<!-- 7) strong tag: meaningful bold, to emphasize that part -->
+<!-- 8) mark tag: to highlight text -->
+<!-- 9) del tag: strikethrough the text -->
+<!-- 10) i tag: italic -->
+<!-- 11) ins (insert) tag: underline --> 
+<!-- 12) a (anchor) tag: used for hyperlinks (a href) -->
+
+
+<!-- HTML element= HTML tags + content in those tags + attributes of the element -->
+<!-- attributes: Id, name, etc -->
+
+<!-- DOM tree (document object model): made in memory, nodes are made against each tag, element, att. -->
+
+
+
+<!-- some more tags -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Web Page</title>    
+</head>
+<body>
+    <select name="" id="">
+        <optgroup label="transpotation">
+            <option value="car">Car</option>
+            <option value="">bus</option>
+            <option value="">bike</option>
+        </optgroup>
+        <optgroup label="characters">
+            <option value="car">a</option>
+            <option value="">b</option>
+            <option value="">c</option>
+        </optgroup>
+    </select>
+<button id="btn">click me</button>
+<script>
+    let a=1,b=3;
+    console.log(sum);
+    let sum=(a,b)=>
+    {
+        return a +b;
+    }
+</script>
+</body>
+</html>
