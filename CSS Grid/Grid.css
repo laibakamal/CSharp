@@ -1,0 +1,45 @@
+        .grid-container 
+        {  
+            display: grid;
+            padding: 2px;
+            background-color: purple;
+            column-gap: 1px;
+            row-gap: 1px;
+            grid-template-areas: ' head head head head head head head' 
+            'nav main main main main side side'
+             'foot foot foot foot foot foot foot';
+        }
+        img
+        {
+            width: 200px;
+            height:300px;
+            text-align: center;
+        }
+        .item
+        {
+            text-align: center;
+            border: 1px;
+            padding: 20px;
+            background-color: palevioletred;
+            font-size: 30px;
+        }
+        #item-1
+        { 
+            grid-area: head;
+        }
+        #item-2
+        {
+            grid-area: nav;
+        }
+        #item-3
+        {
+            grid-area: main;
+        }
+        #item-4
+        {
+            grid-area: side;
+        }
+        #item-5
+        {
+            grid-area: foot;
+        }
